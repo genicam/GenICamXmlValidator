@@ -12,7 +12,7 @@
 
 # Description
 
-Microsoft Visual Studio extension plugin for Gen<i>Cam device XML file validation.
+Microsoft Visual Studio extension plugin for GenICam device XML file validation.
 
 # Usage
 
