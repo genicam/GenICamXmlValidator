@@ -226,7 +226,7 @@
   <Import Project="..\packages\Microsoft.VisualStudio.Threading.Analyzers.15.8.122\build\Microsoft.VisualStudio.Threading.Analyzers.targets" Condition="Exists('..\packages\Microsoft.VisualStudio.Threading.Analyzers.15.8.122\build\Microsoft.VisualStudio.Threading.Analyzers.targets')" />
   <Import Project="..\packages\Microsoft.VisualStudio.SDK.Analyzers.15.8.33\build\Microsoft.VisualStudio.SDK.Analyzers.targets" Condition="Exists('..\packages\Microsoft.VisualStudio.SDK.Analyzers.15.8.33\build\Microsoft.VisualStudio.SDK.Analyzers.targets')" />
   <PropertyGroup>
-    <PostBuildEvent>"c:\Program Files\7-Zip\7z.exe" a "$(TargetDir)GenICamXmlValidator.vsix" "$(ProjectDir)[Content_Types].xml"-y
+    <PostBuildEvent>"c:\Program Files\7-Zip\7z.exe" a "$(TargetDir)GenICamXmlValidator.vsix" "$(ProjectDir)[Content_Types].xml" -y
 if $(ConfigurationName) == Release ( 
 "c:\Program Files\7-Zip\7z.exe" a "$(TargetDir)GenICamXmlValidator.vsix" "$(TargetDir)GcXmlValidator.exe" -y
 "c:\Program Files\7-Zip\7z.exe" a "$(TargetDir)GenICamXmlValidator.vsix" "$(TargetDir)XmlParser_MD_VC140_v3_1_Ipx.dll" -y
