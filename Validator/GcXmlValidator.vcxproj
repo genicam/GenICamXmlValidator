@@ -23,7 +23,7 @@
     <ProjectGuid>{5C3340CE-3C91-4C14-9A95-A241403197B3}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>gcxmlverifier</RootNamespace>
-    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
     <ProjectName>GcXmlValidator</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />

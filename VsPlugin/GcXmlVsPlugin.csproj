@@ -65,6 +65,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
+    <Compile Include="Settings.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Key.snk" />
@@ -78,6 +79,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resources\GenICamXmlValidatorPackage.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="[Content_Types].xml" />
     <VSCTCompile Include="GenICamXmlValidatorPackage.vsct">
       <ResourceName>Menus.ctmenu</ResourceName>
