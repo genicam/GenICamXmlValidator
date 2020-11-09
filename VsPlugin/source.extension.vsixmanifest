@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="GenICamXmlValidator.92dfd10e-950e-4857-ad7a-b2529f4940a4" Version="1.0" Language="en-US" Publisher="Nikolay Bitkin" />
+        <Identity Id="GenICamXmlValidator.92dfd10e-950e-4857-ad7a-b2529f4940a4" Version="1.1" Language="en-US" Publisher="Nikolay Bitkin" />
         <DisplayName>GenICamXmlValidator</DisplayName>
         <Description xml:space="preserve">Gen&lt;i&gt;Cam XML file validator plugin for Visual Studio</Description>
         <MoreInfo>https://github.com/genicam/GenICamXmlValidator</MoreInfo>
-        <Icon>GenICamXmlValidatorPackage.ico</Icon>
-        <PreviewImage>GenICamXmlValidatorPackage.ico</PreviewImage>
+        <Icon>Resources\GenICamXmlValidatorPackage.ico</Icon>
+        <PreviewImage>Resources\GenICamXmlValidatorPackage.ico</PreviewImage>
         <Tags>GenICam</Tags>
     </Metadata>
     <Installation>
