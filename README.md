@@ -17,7 +17,7 @@ Microsoft Visual Studio extension plugin for GenICam device XML file validation.
 # Usage
 
 Open the XML file you need to validate, select menu option Tool -> Validate GenICam XML.
-Tested on Microsoft Visual Studio 2017 Professional.
+Tested on Microsoft Visual Studio 2017 Professional, Visual Studio 2019 Community
 
 # Installation
 

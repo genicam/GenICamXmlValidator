@@ -10,7 +10,7 @@
 
 Building the GenICamXmlValidator plugin from the source, requires having the following SW installed:
 
-	* Visual Studio 2017 with C++ and C# inslalled. It "may" work with Visual Studio 2015, but it was never been tried.
+	* Visual Studio 2017 or 2019 with C++ and C# inslalled. It "may" work with Visual Studio 2015, but it was never been tried.
 	* Visual Studio 2015 Toolset (v140)
 	* .NET Framework 4.6
 	* Visual Studio SDK: https://docs.microsoft.com/en-us/visualstudio/extensibility/visual-studio-sdk
@@ -19,6 +19,6 @@ Building the GenICamXmlValidator plugin from the source, requires having the fol
 
 # How to Build
 	* Get the code from github 
-	* Open the GenICamXmlValidator.sln in Visual Studio 2017
+	* Open the GenICamXmlValidator.sln in Visual Studio 2017 or 2019
 	* Select Tools- >NuGet Package Manager-> Manage NuGet Packages for the Solution...
 	* Message "Some NuGet packages are missing from the solution..." will appear, press "Restore" to get the packages
